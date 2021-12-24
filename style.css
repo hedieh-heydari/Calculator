@@ -15,7 +15,7 @@ body {
 }
 .display {
     color: #ffffff;
-    text-align: right;
+    text-align: left;
     font-size: 50px;
     padding: 20px;
 }
@@ -25,6 +25,13 @@ body {
 .keypad-table tr:first-child .key:active{
 background: #a5a5a590;
 }
+.keypad-table tr td:first-child .key {
+    background: #a5a5a5;
+}
+.keypad-table tr td:first-child .key:active {
+    background:  #a5a5a590;
+}
+
 .keypad-table tr td:last-child .key{
     background-color: #ffa45c;
  }
